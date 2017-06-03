@@ -15,6 +15,7 @@ $ javac Gui2048.java
 
 # How to run
 *While playing, hit "s" on the keyboard to save the current game board*
+
 You can run the game by typing (without dollar sign)
 
 $ java Gui2048
@@ -37,12 +38,14 @@ $ java Gui2048 [-i|o file ...]
                 specified.  If both -s and -iare used, then the size of the board
                 will be determined by the input file. The default size is 4.
                 
+                
 For example, 
 
 $ java Gui2048 -i 2048.board -o n2048.board
 
 will load the board that is saved in 2048.board, then when the player hit "s" on the 
 keyboard while playing, current game status will be saved in n2048.board. 
+
 
 Another example,
 
