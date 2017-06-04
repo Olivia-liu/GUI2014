@@ -1,6 +1,6 @@
 # GUI2048
 This is a 2D video Game that functions as the original 2048 Game, 
-implemented with Java GUI. Play around and have fun!
+implemented with Java 8 and JavaFX. Play around and have fun!
 
 # How to compile
 *Please use jdk 1.8*
